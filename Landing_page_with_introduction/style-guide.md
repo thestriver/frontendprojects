@@ -32,3 +32,7 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

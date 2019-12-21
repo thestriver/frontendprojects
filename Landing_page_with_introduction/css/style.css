@@ -1,0 +1,61 @@
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.main-header {
+    font-weight: 700;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 160px 550px 30px;
+    
+}
+
+header {
+    grid-column: span 12;
+}
+aside {
+    grid-column: span 6;
+}
+main {
+    grid-column: span 6;
+}
+footer {
+    grid-column: span 12;
+}
+
+header {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
