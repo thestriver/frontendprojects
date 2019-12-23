@@ -52,10 +52,13 @@ footer > div:nth-child(2) {
     font-size: 11px;
     text-align: center; 
 }
+
 .attribution a { 
     color: hsl(228, 45%, 44%);
  }
 
+ .fa
+ {color: white;}
 
 
 
