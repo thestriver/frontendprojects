@@ -1,0 +1,115 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 160px 550px 30px;   
+}
+header {
+    grid-column: span 12;
+    display: flex;
+
+}
+aside {
+    grid-column: span 6;
+}
+main {
+    grid-column: span 6;
+    font-family: 'Poppins', sans-serif;
+   
+    color: whitesmoke;
+}
+footer {
+    grid-column: span 12;
+    display: flex;
+    color: white;
+}
+footer > div:nth-child(1) {
+    margin-left: 30cm;   
+}
+ .fa {
+    color: white;   
+}
+span {
+    margin-right: 10px;
+}
+
+img {
+     padding-left: 40px;
+     display: block;
+     max-width: 100%;
+     height: auto;
+}
+
+main {
+     padding-left: 90px;
+     padding-right: 90px;
+ }
+
+ h1 {
+    font-size: 45px;
+}
+
+button {
+    background-color: white;
+    color: violet;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    border-radius: 12px;
+
+}
+
+
+/* media query below */
+@media (max-width:600px) {
+    /* CSS Rules */
+    
+    aside {
+        grid-column: span 10;
+       
+    }
+    main {
+        grid-column: span 12;
+        
+    }
+    footer {
+        grid-column: span 12;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
