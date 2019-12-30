@@ -23,7 +23,8 @@ aside {
 main {
     grid-column: span 6;
     font-family: 'Poppins', sans-serif;
-   
+    padding-left: 90px;
+    padding-right: 90px;
     color: whitesmoke;
 }
 footer {
@@ -48,10 +49,7 @@ img {
      height: auto;
 }
 
-main {
-     padding-left: 90px;
-     padding-right: 90px;
- }
+
 
  h1 {
     font-size: 45px;

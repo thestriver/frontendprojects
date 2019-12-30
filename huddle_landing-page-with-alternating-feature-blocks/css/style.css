@@ -15,15 +15,16 @@ body {
 header {
     grid-column: span 12;
     display: flex;
+    margin: 60px;
 }
 
 header > div:nth-child(2) {
     margin-left: auto;
 }
 
-
-main {
-    grid-column: span 12;
+aside {
+    grid-column: span 6;
+    margin: 80px;
 }
 
 section {
@@ -32,4 +33,12 @@ section {
 
 footer {
     grid-column: span 12;
+    display: flex;
+}
+
+img {
+    
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
