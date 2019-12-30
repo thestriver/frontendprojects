@@ -9,5 +9,27 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 50px 350px 50px;   
+    grid-template-rows: 60px 550px 30px;   
+}
+
+header {
+    grid-column: span 12;
+    display: flex;
+}
+
+header > div:nth-child(2) {
+    margin-left: auto;
+}
+
+
+main {
+    grid-column: span 12;
+}
+
+section {
+    grid-column: span 12;
+}
+
+footer {
+    grid-column: span 12;
 }
