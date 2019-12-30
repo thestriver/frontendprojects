@@ -1,0 +1,13 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: hsl(193, 100%, 96%);
+    background-size: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 350px 50px;   
+}
