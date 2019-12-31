@@ -33,8 +33,10 @@ section {
 
 footer {
     grid-column: span 12;
-    display: flex;
+    display: grid;
 }
+
+footer > div:nth-child()
 
 img {
     
