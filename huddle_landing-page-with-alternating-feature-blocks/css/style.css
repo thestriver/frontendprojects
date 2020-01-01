@@ -34,10 +34,10 @@ section {
 footer {
     grid-column: span 12;
     display: flex;
-}
+    font-size: 9px;
+    padding: 40px;
+    clear: both;
 
-footer > div:nth-child(3) {
-    margin-left: auto;
 }
 
 img {
@@ -45,4 +45,23 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.lorem {
+    width: 40%;
+    float: left;
+}
+.about , .career {
+    width: 15%;
+    float: left;
+}
+
+.social {
+    width: 30%;
+    float: left;
+    padding: 40px;
+    
+}
+.fa {
+    color: white;
 }
