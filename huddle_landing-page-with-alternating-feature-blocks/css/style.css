@@ -22,8 +22,14 @@ header > div:nth-child(2) {
     margin-left: auto;
 }
 
+main {
+    grid-column: span 5;
+    margin-top: 7em;
+    margin-left: 5em;
+}
+
 aside {
-    grid-column: span 6;
+    grid-column: span 7;
     margin: 80px;
 }
 
