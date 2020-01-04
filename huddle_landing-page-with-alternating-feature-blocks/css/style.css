@@ -71,3 +71,9 @@ img {
 .fa {
     color: white;
 }
+
+.card {
+    max-width: 50rem;
+    display: flex;
+    margin-left: 10rem;
+}
