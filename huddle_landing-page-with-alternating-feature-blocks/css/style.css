@@ -73,7 +73,7 @@ img {
 }
 
 .card {
-    max-width: 50rem;
+    max-width: 40rem;
     display: flex;
-    margin-left: 10rem;
+    margin-left: 20rem;
 }
