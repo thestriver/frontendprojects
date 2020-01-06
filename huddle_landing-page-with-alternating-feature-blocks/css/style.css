@@ -6,11 +6,13 @@ body {
     background-size: 100%;
 }
 
+
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 60px 550px 30px;   
+    grid-template-rows: 60px 550px ;  
 }
+
 
 header {
     grid-column: span 12;
@@ -23,17 +25,23 @@ header > div:nth-child(2) {
 }
 
 main {
+    grid-column: span 12;
+    margin-top: 7em;
+    margin-left: 5em;
+    margin: 7em;
+}
+
+.build {
     grid-column: span 5;
     margin-top: 7em;
     margin-left: 5em;
 }
-
 aside {
     grid-column: span 7;
     margin: 80px;
 }
 
-section {
+.card {
     grid-column: span 12;
 }
 
@@ -73,7 +81,6 @@ img {
 }
 
 .card {
-    max-width: 40rem;
-    display: flex;
-    margin-left: 20rem;
+    display: grid;
+    
 }
