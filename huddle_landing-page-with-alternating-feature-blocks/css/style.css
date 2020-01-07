@@ -19,11 +19,23 @@ header {
     grid-column: span 12;
     display: flex;
     margin: 60px;
-    
+    margin-bottom: 50px;    
 }
 
 header > div:nth-child(2) {
     margin-left: auto;
+}
+
+
+button.btn {
+    background-color: white;
+    color: black;
+    padding: 12px 40px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    border-radius: 12px;
+
 }
 
 .build {
