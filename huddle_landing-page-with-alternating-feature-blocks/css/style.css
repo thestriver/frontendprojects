@@ -8,6 +8,12 @@ body {
 }
 
 
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -19,37 +25,54 @@ header {
     grid-column: span 12;
     display: flex;
     margin: 60px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
+    background-image: url(../images/bg-hero-desktop.svg);    
 }
 
 header > div:nth-child(2) {
     margin-left: auto;
+    background-image: url(../images/bg-hero-desktop.svg); 
 }
+
 
 
 button.btn {
     background-color: white;
     color: black;
-    padding: 12px 40px;
+    padding: 12px 60px;
     text-align: center;
     display: inline;
     font-size: 16px;
     border-radius: 12px;
+    background-image: url(../images/bg-hero-desktop.svg); 
 
+}
+
+.btn2 {
+    background-color: #ff3399;
+    color: white;
+    padding: 18px 80px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-image: url(../images/bg-hero-desktop.svg); 
 }
 
 .build {
     grid-column: span 5;
-    margin-top: 7em;
+    margin-top: 10em;
     margin-left: 5em;
+    background-image: url(../images/bg-hero-desktop.svg); 
     
-
 }
 
 aside {
     grid-column: span 7;
-    margin: 80px;
+    margin: 90px;
     margin-bottom: 150px;
+    background-image: url(../images/bg-hero-desktop.svg); 
 }
 
 
@@ -67,7 +90,7 @@ main {
     grid-column: span 12;
     height: 400px;
     max-width: 100%;
-    display: inline-flex;
+    display: grid;
     border: 1px solidrgba(128, 141, 153, 0.15);
     box-shadow: 0px 0px 4px 3px rgba(128, 141, 153, 0.1);
     border-radius: 10px;
@@ -75,6 +98,34 @@ main {
     margin-right: 90px;
     margin-bottom: 40px;
    
+}
+
+.middle {
+    border: 1px solidrgba(128, 141, 153, 0.15);
+    box-shadow: 0px 0px 4px 3px rgba(128, 141, 153, 0.1);
+    border-radius: 10px;
+    height: 250px;
+    width: 600px;
+    margin-left: 390px;
+    margin-right: 390px;
+    padding-top: 40px;
+    padding-left: 100px;
+    margin-top: 150px;
+    margin-bottom: -350px;
+    background-color: white;
+
+
+}
+
+.middle button {
+    background-color: #ff3399;
+    color: white;
+    padding: 20px 120px;
+    text-align: center;
+    display: inline;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-left: 40px;
 }
 
 .card > div:nth-child(2) {
@@ -114,6 +165,9 @@ footer {
     font-size: 9px;
     padding: 40px;
     clear: both;
+    padding-bottom: 150px;
+    margin-top: -50px;
+    
 
 }
 
@@ -140,10 +194,6 @@ img {
     
 }
 .fa {
-    color: white;
+    color: #ff3399;
 }
 
-.card {
-    display: grid;
-    
-}
