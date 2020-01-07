@@ -4,6 +4,7 @@ body {
     font-weight: 400;
     background-color: hsl(193, 100%, 96%);
     background-size: 100%;
+    
 }
 
 
@@ -18,32 +19,82 @@ header {
     grid-column: span 12;
     display: flex;
     margin: 60px;
+    
 }
 
 header > div:nth-child(2) {
     margin-left: auto;
 }
 
-main {
-    grid-column: span 12;
-    margin-top: 7em;
-    margin-left: 5em;
-    margin: 7em;
-}
-
 .build {
     grid-column: span 5;
     margin-top: 7em;
     margin-left: 5em;
+    
+
 }
+
 aside {
     grid-column: span 7;
     margin: 80px;
+    margin-bottom: 150px;
 }
+
+
+main {
+    grid-column: span 12 ;
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
 
 .card {
     grid-column: span 12;
+    height: 400px;
+    max-width: 100%;
+    display: inline-flex;
+    border: 1px solidrgba(128, 141, 153, 0.15);
+    box-shadow: 0px 0px 4px 3px rgba(128, 141, 153, 0.1);
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 40px;
+   
 }
+
+.card > div:nth-child(2) {
+    margin-left: auto;
+}
+
+.card-details {
+    max-width: 50%;
+    margin-top: 100px;
+    padding-left: 90px;
+}
+
+.card-image {
+    margin-top: -250px;
+    width: 420px;
+    padding-right: 50px;
+    
+}
+
+.card2-image {
+    width: 420px;
+    margin-top: 50px;
+    padding-left: 90px;
+
+}
+
+.card2-details {
+    margin-top: -290px;
+    width: 520px;
+    padding-right: 20px;
+}
+
 
 footer {
     grid-column: span 12;
