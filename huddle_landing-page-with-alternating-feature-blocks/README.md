@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge. This took more time than I would like but it was nice refresher on CSS. Moving on to Javascript Challenges now. 
+Thanks for checking out this front-end coding challenge. This took more time than I would like but it was a nice refresher on CSS. Moving on to Javascript Challenges now. 
 [Frontend Mentor](https://www.frontendmentor.io) rocks! 🚀
 
  Made with ❤
