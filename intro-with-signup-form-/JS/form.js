@@ -14,3 +14,7 @@ function validateForm() {
       return false;
     }
 }
+
+$(document).ready(function() {
+    alert("Hello World!");
+});
