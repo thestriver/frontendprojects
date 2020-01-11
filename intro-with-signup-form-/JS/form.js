@@ -1,29 +1,23 @@
-const fname = document.getElementsByName("firstname")[0];
-const lname = document.getElementsByName("lastname")[0];
-const mail = document.getElementsByName("email")[0];
-const pass = document.getElementsByName("password")[0];
-const btn = document.getElementsByName("trial")[0];
-const form = document.querySelector(".form");
+var fname = document.getElementsByName("firstname")[0];
+var lname = document.getElementsByName("lastname")[0];
+var mail = document.getElementsByName("email")[0];
+var pass = document.getElementsByName("password")[0];
+var btn = document.getElementsByName("trial")[0];
+var form = document.querySelector(".form");
 
-btn.addEventListener('click', () => {alert('Hello World'); } );
 
 function formValidation() {
-     if(document.forms["myForm"]["firstname"].value == "") {
+     if(fname.value == "") {
          alert("First Name can not be empty ");
-         document.forms["myForm"]["firstname"].focus();
+         //document.forms["myForm"]["firstname"].focus();
          return false;
      };
     
 }
 
-function validateForm() {
-    var x = document.forms["myForm"]["firstname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
+btn.addEventListener('click', function()  {
+    if(fname.value == "") {
+        console.log('empty');
     }
-}
+} );
 
-$(document).ready(function() {
-    alert("Hello World!");
-});

@@ -41,11 +41,32 @@
         <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
       </div>
       <div class="form">
-        <form method="GET" name="myForm" onsubmit="return validateForm() ">
-          <input type="text" name="firstname" placeholder="First Name" required><br>
-          <input type="text" name="lastname" placeholder="Last Name" required> <br>
-          <input type="email" name="email" placeholder="Email Address" required> <br>
-          <input type="password" name="password" placeholder="Password" required> <br>
+        <form method="GET" name="myForm" onsubmit="return formValidation() ">
+          <div class="form-field">
+            <input type="text" name="firstname" placeholder="First Name" required><br>
+            <span class="err-icon">&nbsp;</span>
+            <span class="err-msg">First name cannot be empty</span>
+          </div>
+
+          <div class="form-field">
+            <input type="text" name="lastname" placeholder="Last Name" required> <br>
+            <span class="err-icon">&nbsp;</span>
+            <span class="err-msg">Last name cannot be empty</span>
+          </div>
+         
+          <div class="form-field">
+            <input type="email" name="email" placeholder="Email Address" required> <br>
+            <span class="err-icon">&nbsp;</span>
+            <span class="err-msg">Last name cannot be empty</span>
+          </div>
+          
+          <div class="form-field">
+            <input type="password" name="password" placeholder="Password" required> <br>
+            <span class="err-icon">&nbsp;</span>
+            <span class="err-msg">Last name cannot be empty</span>
+          </div>
+          
+          
           <input type="submit" name="trial" value="CLAIM YOUR FREE TRIAL">
           <h5><font color="gray">By clicking the button, you are agreeing to our </font> <font color="red">Terms and Services</font>By clicking the button, you are agreeing to our </font>></h5>
   
@@ -53,20 +74,7 @@
       </div>
     </aside>
 
-
- 
-
-  
-
-  
-
-
-  
-  <footer>
-    
-  </footer>
-
   </div>
-
+  <script type="text/javascript" src="./JS/form.js"></script>
 </body>
 </html>
