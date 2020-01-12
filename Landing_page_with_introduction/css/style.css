@@ -68,23 +68,44 @@ button {
 
 
 /* media query below */
-@media (max-width:600px) {
+@media (max-width:800px) {
     /* CSS Rules */
-    
+    .container {
+        grid-template-rows: 80px 500px 470px; 
+    }
+
     aside {
         grid-column: span 10;
-       
+        margin-top: 80px;
     }
     main {
-        grid-column: span 12;
-        
-    }
-    footer {
-        grid-column: span 12;
+        grid-column: span 10;
+        margin-top: -100px;
+       
     }
     h1 {
-      font-size: 20px;
+        font-size: 40px;
+        /* text-align: center; */
     }
+   
+    p {
+        text-align: justify;
+    }
+
+    button {
+        margin-left: 100px;
+        padding: 10px 40px;
+    }
+
+    footer {
+        grid-column: span 10;
+        display: inline;
+    }
+    
+    footer > div:nth-child(1) {
+        margin-left: 3cm;   
+    }
+
   }
 
 
