@@ -6,18 +6,18 @@ var btn = document.getElementsByName("trial")[0];
 var form = document.querySelector(".form");
 
 
-// function formValidation() {
-//      if(fname.value == "") {
-//          alert("First Name can not be empty ");
-//          //document.forms["myForm"]["firstname"].focus();
-//          return false;
-//      };
+function formValidation() {
+     if(fname.value == "") {
+         alert("First Name can not be empty ");
+         //document.forms["myForm"]["firstname"].focus();
+         return false;
+     };
     
-// }
+}
 
-// btn.addEventListener('click', function()  {
-//     if(fname.value == "") {
-//         console.log('empty');
-//     }
-// } );
+btn.addEventListener('click', function()  {
+    if(fname.value == "") {
+        console.log('empty');
+    }
+} );
 
