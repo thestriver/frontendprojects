@@ -55,9 +55,9 @@ button.btn {
     padding: 18px 80px;
     text-align: center;
     display: inline;
-    font-size: 16px;
+    font-size: 17px;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 22px;
     background-image: url(../images/bg-hero-desktop.svg); 
     cursor: pointer;
 }
