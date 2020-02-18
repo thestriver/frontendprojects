@@ -9,4 +9,4 @@ Thanks for checking out this front-end coding challenge.
 This [Frontend Mentor](https://www.frontendmentor.io) challenge is one of the series of front end projects have been building to hone my Front end development skills. 
 Stack:
 HTML, CSS and JavaScript
- 🚀
+ Made with ❤ 🚀
