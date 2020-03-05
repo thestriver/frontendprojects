@@ -13,5 +13,24 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 160px 550px;   
+    grid-template-rows: 160px 550px 30px;   
 }
+
+header {
+    grid-column: span 12;
+}
+
+
+
+.Basic {
+    grid-column: span 4;
+}
+
+.Proffesional {
+    grid-column: span 4;
+}
+
+.Master {
+    grid-column: span 4;
+}
+
