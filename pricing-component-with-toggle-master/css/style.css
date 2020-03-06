@@ -3,6 +3,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: black;
     background-color: white;
+    /* margin: 0 auto; 
+    width:70% */
 }
 
 .dark-mode {
@@ -12,9 +14,10 @@ body {
 .darkmode {
     padding: 10px 30px;
     text-align: center;
-    display: inline;
     font-size: 16px;
     border-radius: 12px;
+    margin-left: 70rem;
+    margin-top: 2rem;
 }
 .container {
     display: grid;
@@ -26,6 +29,14 @@ header {
     grid-column: span 12;
 }
 
+.toggle {
+    margin: 0 auto; 
+    width:85%;
+    text-align: center;
+}
+.price {
+    display: inline-flex;
+}
 .Basic {
     grid-column: span 4;
 }
