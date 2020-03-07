@@ -3,7 +3,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: black;
     background-color: white;
-    text-align: center;
     /* margin: 0 auto; 
     width:70% */
 }
@@ -25,28 +24,38 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 160px 550px 30px;   
 } */
-
+/*
 header {
-    grid-column: span 12;
+     grid-column: span 12; 
 }
-
-.toggle {
+*/
+/* .toggle {
     /* margin: 0 auto; 
     width:85%;
-    text-align: center; */
+    text-align: center;
 }
+ */
 .price {
-    display: inline-flex;
+    display: table;
+    table-layout: fixed;
+    width: 100%; 
 }
+
 .Basic {
-    grid-column: span 4;
+    /* grid-column: span 4; */
+    display: table-cell;
+    text-align: center;
 }
 
 .Proffesional {
-    grid-column: span 4;
-}
+    /* grid-column: span 4;*/
+    display: table-cell;
+    text-align: center;
+} 
 
 .Master {
-    grid-column: span 4;
+    /* grid-column: span 4; */
+    display: table-cell;
+    text-align: center;
 }
 
