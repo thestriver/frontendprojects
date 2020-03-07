@@ -3,6 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: black;
     background-color: white;
+    text-align: center;
     /* margin: 0 auto; 
     width:70% */
 }
@@ -19,20 +20,20 @@ body {
     margin-left: 70rem;
     margin-top: 2rem;
 }
-.container {
+/* .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 160px 550px 30px;   
-}
+} */
 
 header {
     grid-column: span 12;
 }
 
 .toggle {
-    margin: 0 auto; 
+    /* margin: 0 auto; 
     width:85%;
-    text-align: center;
+    text-align: center; */
 }
 .price {
     display: inline-flex;
