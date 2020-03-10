@@ -1,10 +1,14 @@
 html,
 body {
     font-family: 'Montserrat', sans-serif;
-    color: black;
-    background-color: white;
+    background: hsl(240, 78%, 98%);
+    background-image: url(../images/bg-top.svg), url(../images/bg-bottom.svg) ;
+    background-position: top right , bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
     /* margin: 0 auto; 
     width:70% */
+    /* box-sizing: border-box; */
 }
 
 .dark-mode {
@@ -19,43 +23,58 @@ body {
     margin-left: 70rem;
     margin-top: 2rem;
 }
-/* .container {
-    display: grid;
+.container {
+    /* display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 160px 550px 30px;   
-} */
+    grid-template-rows: 160px 550px 30px;    */
+    /* margin: 0 auto; 
+    width:90%; */
+    text-align: center;
+
+}
 /*
 header {
      grid-column: span 12; 
 }
 */
-/* .toggle {
-    /* margin: 0 auto; 
-    width:85%;
-    text-align: center;
+.toggle {
+   
 }
- */
-.price {
+.one {
+    display: inline-flex
+}
+
+/* .price {
     display: table;
     table-layout: fixed;
     width: 100%; 
+} */
+
+.columns {
+    float: left;
+    width: 33%;
+
+}
+
+.details {
+    list-style-type: none;
 }
 
 .Basic {
     /* grid-column: span 4; */
-    display: table-cell;
-    text-align: center;
+    /* display: table-cell;
+    text-align: center; */
 }
 
 .Proffesional {
     /* grid-column: span 4;*/
-    display: table-cell;
-    text-align: center;
+    /* display: table-cell;
+    text-align: center; */
 } 
 
 .Master {
     /* grid-column: span 4; */
-    display: table-cell;
-    text-align: center;
+    /* display: table-cell;
+    text-align: center; */
 }
 
