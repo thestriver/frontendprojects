@@ -20,19 +20,28 @@
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <button class="darkmode" onclick="darkMode() " >Dark Mode</button>
+  <div class="">
+    <header style="margin-top: 5rem;">
+      <!-- <button class="darkmode" onclick="darkMode() " >Dark Mode</button> -->
+  
       <div class="toggle">
         <h1>Our Pricing</h1>
         <div class="one"> 
-        <h1 class="annually">Annually</h1>
-        <button>Toggle</button>
-        <h1 class="monthly">Monthly</h1>
+          <h1 class="annually">Annually</h1>
+
+          <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round"></span>
+          </label>
+
+          <h1 class="monthly">Monthly</h1>
         </div>
       </div>
     </header>
     
+    
+
+
     <div class="pricing">
       <div class="Basic columns">
         <h1>Basic</h1>
