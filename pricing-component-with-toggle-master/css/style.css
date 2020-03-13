@@ -13,8 +13,8 @@ body
     background-position: 29cm 0cm ,  0cm 14cm;
     background-repeat: no-repeat;
     /* background-size: contain; */
-    /* margin: 0 auto; 
-    width:70% */
+    margin: 0 auto; 
+    width: 75%;
 }
 
 .dark-mode {
@@ -46,51 +46,112 @@ header {
 
 h1 {
     font-size: 4rem;
+    margin-bottom: -0.3rem;
 }
 h2 {
     font-size: 2rem;
-    margin-bottom: 3.2rem;
+    margin-bottom: 3rem;
 }
 
 p {
     font-size: 17px;
+    padding-top: 1.3rem;
+}
+
+.tall-card p {
+    padding-top: 2.4rem;
 }
 .spantext {
     font-size: 1.1rem;
 
 }
 
+li {
+    padding: 0.5rem;
+}
+
+hr {
+    width: 90%;
+    color: hsl(240, 78%, 98%);
+    /* margin:0 auto; */
+}
+
 .toggle {
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .columns {
     float: left;
     width: 33%;
+    text-align: center;
 
 }
 
 .details {
     list-style-type: none;
+   
 }
 
-.Basic {
-    /* grid-column: span 4; */
-    /* display: table-cell;
-    text-align: center; */
+.norm-carda {
+    border: 1px;
+    box-shadow: 0px 0px 4px 3px rgba(128, 141, 153, 0.1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 28rem;
+    width: 22rem;
+    background-color: white;
 }
 
-.Proffesional {
-    /* grid-column: span 4;*/
-    /* display: table-cell;
-    text-align: center; */
-} 
+.tall-card {
+    border: 1px solidrgba(128, 141, 153, 0.15);
+    box-shadow: 0px 0px 4px 3px rgba(128, 141, 153, 0.1);
+    border-radius: 10px;
+    height: 32rem;
+    width: 22rem;
+    margin-top: -1.6rem;
+    /* background-color: rgb(121, 116, 196);  */
+    background-image: linear-gradient( hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
 
-.Master {
-    /* grid-column: span 4; */
-    /* display: table-cell;
-    text-align: center; */
+.norm-cardb {
+    border: 1px solidrgba(128, 141, 153, 0.15);
+    box-shadow: 0px 0px 4px 3px rgba(128, 141, 153, 0.1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 28rem;
+    width: 22rem;
+    background-color: white;
+}
+
+.learn {
+    background-image: linear-gradient( hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+   
+}
+.learn:hover {
+      background-color: white;
+}
+
+.learnb {
+    background-color: white;
+    color: rgb(121, 116, 196);
+    padding: 10px 60px;
+    text-align: center;
+    display: inline;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.learnb:hover {
+    background-image: linear-gradient( hsl(236, 72%, 79%), hsl(237, 63%, 64%));   
 }
 
 /* Start of toggle switch */
