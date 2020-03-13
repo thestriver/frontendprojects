@@ -1,10 +1,12 @@
-* {
+/* * {
     box-sizing: border-box;
-  }
+  } */
 
 body
  {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
     text-align: center;
     background: hsl(240, 78%, 98%);
     background-image: url(../images/bg-top.svg), url(../images/bg-bottom.svg) ;
@@ -41,19 +43,27 @@ header {
      grid-column: span 12; 
 }
 */
-.toggle {
-    
+
+h1 {
+    font-size: 4rem;
 }
-.one {
-    /* display: inline-block; */
-    
+h2 {
+    font-size: 2rem;
+    margin-bottom: 3.2rem;
 }
 
-/* .price {
-    display: table;
-    table-layout: fixed;
-    width: 100%; 
-} */
+p {
+    font-size: 17px;
+}
+.spantext {
+    font-size: 1.1rem;
+
+}
+
+.toggle {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 
 .columns {
     float: left;

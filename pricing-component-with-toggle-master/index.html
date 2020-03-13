@@ -21,33 +21,32 @@
 
 <body>
   <div class="">
-    <header style="margin-top: 5rem;">
+    <header>
       <!-- <button class="darkmode" onclick="darkMode() " >Dark Mode</button> -->
   
       <div class="toggle">
-        <h1>Our Pricing</h1>
-        <div class="one"> 
-          <h1 class="annually">Annually</h1>
-
-          <label class="switch">
-          <input type="checkbox" checked>
+        <h2>Our Pricing</h2>
+        
+        <span class="spantext">Annually</span>  
+        <label class="switch">
+          <input id="checking" type="checkbox" checked onclick="pricingCheck()" >
           <span class="slider round"></span>
-          </label>
+        </label>
+        <span>Monthly</span>
 
-          <h1 class="monthly">Monthly</h1>
-        </div>
+
       </div>
     </header>
     
     
 
-
     <div class="pricing">
-      <div class="Basic columns">
-        <h1>Basic</h1>
+
+      <div class="norm-card columns">
+        <p>Basic</p>
         <div class="price">
-          <h1 class="pricem">&dollar;19.99</h1>
-          <h1 class="pricea">&dollar;199.99</h1>
+          <h1 id="basicp" class="pricem">&dollar;19.99</h1>
+          <!-- <h1 class="pricea">&dollar;199.99</h1> -->
         </div>
   
         <ul class="details">
@@ -58,11 +57,11 @@
         <button class="learn">LEARN MORE</button>
       </div>
 
-      <div class="Professional columns">
-        <h1>Professional</h1>
+      <div class="tall-card columns">
+        <p>Professional</p>
         <div class="price">
-          <h1 class="pricem">&dollar;19.99</h1>
-          <h1 class="pricea">&dollar;199.99</h1>
+          <h1  id="profp" class="pricem">&dollar;24.99</h1>
+          <!-- <h1  class="pricea">&dollar;199.99</h1> -->
         </div>
         <ul class="details">
           <li>1 TB Storage</li>
@@ -73,11 +72,11 @@
         
       </div>
       
-      <diV class="Master columns">
-        <h1> Master</h1>
+      <diV class="norm-card columns">
+        <p> Master</p>
         <div class="price">
-          <h1 class="pricem">&dollar;39.99</h1>
-          <h1 class="pricea">&dollar;399.99</h1>
+          <h1 id="masterp" class="pricem">&dollar;39.99</h1>
+          <!-- <h1 class="pricea">&dollar;399.99</h1> -->
         </div>
        <ul class="details">
         <li>2 TB Storage</li>
