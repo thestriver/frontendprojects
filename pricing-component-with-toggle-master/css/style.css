@@ -8,6 +8,7 @@ body
     font-size: 15px;
     font-weight: 700;
     text-align: center;
+    color: hsl(232, 13%, 33%);
     background: hsl(240, 78%, 98%);
     background-image: url(../images/bg-top.svg), url(../images/bg-bottom.svg) ;
     background-position: 29cm 0cm ,  0cm 14cm;
@@ -78,14 +79,13 @@ hr {
 
 .toggle {
     margin-top: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .columns {
     float: left;
     width: 33%;
     text-align: center;
-
 }
 
 .details {
@@ -110,6 +110,7 @@ hr {
     height: 32rem;
     width: 22rem;
     margin-top: -1.6rem;
+    color: white;
     /* background-color: rgb(121, 116, 196);  */
     background-image: linear-gradient( hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 }
@@ -176,7 +177,7 @@ hr {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: hsl(237, 63%, 64%);
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -194,11 +195,11 @@ hr {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-image: linear-gradient( hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px hsl(237, 63%, 64%);
   }
   
   input:checked + .slider:before {
