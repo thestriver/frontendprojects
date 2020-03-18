@@ -4,9 +4,9 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge. It was nice using another method apart from CSS Grid or Tachyons to create these grids/columns.  Looking forward to trying out more of these Front-end challenges.
+Thanks for checking out this front-end coding challenge. It was nice trying out a couple of DOM manipulation JS. Would be more consistent in creating such exercises going forward.
 
 
-[Frontend Mentor](https://www.frontendmentor.io) rocks! 🚀
+And as usual, [Frontend Mentor](https://www.frontendmentor.io) rocks! 🚀
 
  Made with ❤

@@ -10,7 +10,7 @@ function pricingCheck() {
     var profp = document.getElementById("profp");
     var masterp = document.getElementById("masterp");
 
-    if(checkBox.checked == false ) {
+    if(checkBox.checked === false ) {
         basicp.innerText = "$199.99"; 
         profp.innerText = "$249.99";
         masterp.innerText = "$349.99";
