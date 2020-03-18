@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge. It was nice trying out a couple of DOM manipulation JS. Would be more consistent in creating such exercises going forward.
+Thanks for checking out this front-end coding challenge. It was nice trying out a couple of DOM manipulation JS. Adding Darkmode to my first website was amazing too. Would be more consistent in creating such exercises going forward.
 
 
 And as usual, [Frontend Mentor](https://www.frontendmentor.io) rocks! 🚀
